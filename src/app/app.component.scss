@@ -1,0 +1,84 @@
+@import '@bryntum/schedulerpro/schedulerpro.material.css';
+
+
+::ng-deep {
+  .b-timeline-subgrid .b-sch-range.timeRange2 {
+    background-color: rgba(255, 255, 0, 0.1);
+  }
+
+  .b-timeline-subgrid .b-sch-range.timeRange3 {
+    background-color: rgba(0, 0, 255, 0.1);
+  }
+
+  .b-timeline-subgrid .b-sch-range.timeRange4 {
+    background-color: rgba(255, 0, 0, 0.1);
+  }
+
+  //.b-sch-event {
+  //  border-radius: 3px;
+  //}
+
+  .b-sch-event {
+    &.color1 {
+      background-color: #4B0082;
+    }
+
+    &.color2 {
+      background-color: #FDB200;
+    }
+
+    &.color3 {
+      background-color: #EE82EE;
+    }
+
+    &.color4 {
+      background-color: #045690;
+    }
+
+    &.color5 {
+      background-color: #00A86B;
+    }
+
+    &.color6 {
+      background-color: #FF5E00;
+    }
+
+    &.color7 {
+      background-color: #079CB9;
+    }
+
+    &.color8 {
+      background-color: #f4a261;
+    }
+
+    &.color9 {
+      background-color: #94d2bd;
+    }
+
+    &.color10 {
+      background-color: #e76f51;
+    }
+
+    &.color11 {
+      background-color: #7f5539;
+    }
+    &.color12 {
+      background-color: #ff9500;
+    }
+
+    &.color13 {
+      background-color: #f2cc8f;
+    }
+
+    &.color14 {
+      background-color: #656d4a;
+    }
+
+    &.color15 {
+      background-color: #ef476f;
+    }
+    &.color16 {
+      background-color: #b5e48c;
+    }
+  }
+}
